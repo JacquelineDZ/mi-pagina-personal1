@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+img{
+    max-width: 50%;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 80px 0 0 0;
+
+}
+.menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-betweens;
+
+}
+.logo{
+    color: rgb(94, 134, 134);
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #00146f;
+    display: block;
+    font-weight: 600;
+
+}
+
+.menu .navbar ul li a:hover{
+    color: #ffffff;
+}
+
+#menu{
+    display: none;
+}
+header, .color {
+background-color: #e3ffff;   
+width: 70%;
+height: 50%;
+}
+.cuadro_derecho{
+    position: absolute;
+    bottom: 54%;
+    left: 60%;
+    width: 80%;
+    height: 90%;
+}
+
+.menu-icono {
+    
+    width: 100%;
+    height: auto;
+
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+.header-txt{
+    width: 50%;
+    padding-right: 75px;
+}
+
+.header-txt h1{
+    color: #564fa9;
+    font-size: 45px;
+    line-height: 1;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+span{
+    color: #60ac60;
+}
+
+p{
+    font-size: 17px;
+    color: #593579;
+    margin-bottom: 35px;
+}
+ 
+.about{
+    padding: 130px 0;
+    display: flex;
+}
+
+.about-img{
+    flex-basis: 50%;
+    display: flex;
+}
+
+.about-img img{
+    width: 270px;
+    border-radius: 20px;
+    margin-right: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.about-txt{
+    flex-basis: 50% ;
+}
+
+h2{
+    font-size: 40px;
+    line-height: 1;
+    color: #001739;
+    margin-bottom: 25px;
+}
+
+.about-txt p{
+    color: #444444;
+}
+
+.products{
+    padding: 0 0 100px 0;
+    text-align:  left;
+}
+
+.about-imge{
+     flex-basis: 30%;
+    display: flex;
+}
+.about-imge img{
+    width: 270px;
+    border-radius: 20px;
+    margin-left: 50px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+.product-txt{
+    flex-basis: 10% ;
+}
+ol{
+    font-size: 15px;
+    line-height: 1;
+    color: #001739;
+    margin-bottom: 25px;
+}
+
+.video{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.enlace a{
+    margin: 0 10px;
+    color: aquamarine;
+    text-decoration: none;
+}
+
+
+footer{
+        background-color:#50717c;
+        text-align: center;
+        color: aliceblue;
+        padding: 10px;
+    }
+   .footer p{
+        font-size: 17px;
+    color: #ccd3d6;
+    margin-bottom: 35px;
+    }
+    .fab{
+        color: #fdfdfd;
+    }
+    
